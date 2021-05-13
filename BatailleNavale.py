@@ -3,7 +3,7 @@
 from turtle import *
 from random import *
 
-title("coucou")
+title("Bataille Navale")
 setup(1500,750)
 ht()
 speed('fastest')
