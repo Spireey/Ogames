@@ -53,7 +53,7 @@ BPuissance4.place(x=459,y=200)
 
 img = PhotoImage(file ="a.png")
 
-BBatailleNavale = Button(fenetre, image=img,  font=("Courrier", 20), bg='#666666',fg='white', command = crédits)
+BBatailleNavale = Button(fenetre, image=img,  font=("Courrier", 20), bg='#666666',fg='white', command = BT)
 BBatailleNavale.place(x=459,y=370)
 
 
