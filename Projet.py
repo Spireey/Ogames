@@ -17,7 +17,7 @@ def destroy():
     fenetre.destroy()
 
 def BT():
-    exec(open("Bataille Navale.py").read())
+    exec(open("BatailleNavale.py").read())
     
 
 
