@@ -16,6 +16,10 @@ def MDT():
 def destroy():
     fenetre.destroy()
 
+def BT():
+    exec(open("Bataille Navale.py").read())
+    
+
 
 def crédits():
     fcrédits = Tk()
