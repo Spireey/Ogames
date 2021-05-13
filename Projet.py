@@ -8,6 +8,10 @@ import webbrowser
 
 def P4():
     exec(open("Puissance4.py").read())
+    
+def MDT():
+    exec(open("MDT.py").read())
+
 
 def destroy():
     fenetre.destroy()
@@ -51,7 +55,7 @@ BBatailleNavale.place(x=459,y=370)
 
 imgmdt = PhotoImage(file ="mdt.png")
 
-BMDT = Button(fenetre, image = imgmdt,  font=("Courrier", 20), bg='#666666',fg='white', command = crédits)
+BMDT = Button(fenetre, image = imgmdt,  font=("Courrier", 20), bg='#666666',fg='white', command = MDT)
 BMDT.place(x=459,y=540)
 
 
